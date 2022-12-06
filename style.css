@@ -57,7 +57,7 @@ a{  /*changes links from blue underlined, to white and not underlined*/
 }
 
 .hero-text{
-    width:500px;
+    width:400px;
     margin-left: 70px;
 }
 .hero{
@@ -101,9 +101,37 @@ font-weight: bold;
 
 
 .section2text{
-    width: 100px;
+    width: 150px;
 }
 
 .section2{
     margin-bottom: 100px;
+}
+
+.section3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.section3wrap{
+    
+    width: 750px;
+    padding: 65px;
+    
+
+}
+
+
+.section3wrap > p{
+    font-size: x-large;
+    font-weight: lighter;
+
+}
+
+
+.section3wrap > div{
+    margin-left: 500px;
+    font-weight: bolder;
 }

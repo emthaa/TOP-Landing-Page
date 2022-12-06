@@ -26,9 +26,11 @@ a{  /*changes links from blue underlined, to white and not underlined*/
 }
 
 
-.section2images{
+.section2image{
     width: 200px;
     height:200px;
+    border: 8px solid#3882F6;
+    border-radius: 25px;
 }
 
 #Title{
@@ -74,4 +76,34 @@ a{  /*changes links from blue underlined, to white and not underlined*/
     height: 50px;
     font-weight: bold;
     color: white;
+}
+
+
+.section2images{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section2top{
+display: flex;
+justify-content: center;
+margin: 50px;
+font-size: 24px;
+font-weight: bold;
+}
+
+.section2belowimages{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.section2text{
+    width: 100px;
+}
+
+.section2{
+    margin-bottom: 100px;
 }

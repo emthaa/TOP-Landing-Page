@@ -1,0 +1,77 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+#HeaderLogo{
+    font: 32px;
+    font-weight: bold;
+    font-size: 24px;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+a{  /*changes links from blue underlined, to white and not underlined*/
+    color: white;
+    text-decoration: none;
+}
+
+#section1image{
+    height: 150px;
+    width: 350px;
+}
+
+
+.section2images{
+    width: 200px;
+    height:200px;
+}
+
+#Title{
+    font-weight: bold;
+    font-size: 32px;
+}
+
+
+.section1{
+    color:white;
+    background-color: #1F2937;
+}
+
+.header,.left-side,.right-side{
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-text{
+    width:500px;
+    margin-left: 70px;
+}
+.hero{
+    padding: 50px;
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#fstSignupButton{
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    border: #3882F6;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    color: white;
+}
